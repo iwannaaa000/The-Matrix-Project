@@ -68,8 +68,8 @@ ul {
    
 }
 video {
-    height: 500px;
-    width: 700px;
+    height: 400px;
+    width: 750px;
 }
 
 .eidos {
@@ -125,7 +125,7 @@ margin-top: 30px;
     color: rgb(21, 100, 41);
     padding: 20px 30px 20px 30px;
     text-align: justify;
-    margin-left: 250px;
+    margin: auto;
     margin-top: 50px;
 }
 
@@ -154,5 +154,9 @@ margin-top: 30px;
 .forma1, .forma2, .forma3 {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.linkbutton {
+    margin-right: 20px;
 }
 
