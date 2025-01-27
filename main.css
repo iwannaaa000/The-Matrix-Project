@@ -59,14 +59,15 @@ ul {
     grid-area: poster;
     margin-top: 30px;
     margin-left: 200px;
-  
+
 }
 
 .trailer {
     margin-top: 50px;
     grid-area: trailer;
-   
+
 }
+
 video {
     height: 400px;
     width: 750px;
@@ -85,19 +86,19 @@ video {
     text-align: justify;
 }
 
-.keimeno{
-margin-top: 30px;
+.keimeno {
+    margin-top: 30px;
 }
 
 .linkk {
-    color: rgb(255, 255, 255);    
+    color: rgb(255, 255, 255);
     margin-bottom: 30px;
     margin-top: 15px;
 }
 
 .btn-group {
     margin-top: 10px;
-    display: flex; 
+    display: flex;
     justify-content: center
 }
 
@@ -134,7 +135,7 @@ margin-top: 30px;
 }
 
 .koumpi {
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
 
@@ -151,7 +152,9 @@ margin-top: 30px;
     font-size: large;
 }
 
-.forma1, .forma2, .forma3 {
+.forma1,
+.forma2,
+.forma3 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -159,4 +162,3 @@ margin-top: 30px;
 .linkbutton {
     margin-right: 20px;
 }
-
