@@ -1,0 +1,158 @@
+@import url('dafont.com/13misa.font');
+
+body {
+    color: rgb(255, 255, 255);
+    background-image: url(backback.jpg);
+}
+
+
+.menu {
+    border: 20px;
+}
+
+.menu a {
+    display: flex;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.menu a.icon {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    transition: text-decoration 0.2s;
+}
+
+.bodyy {
+    border: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.info {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 6fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: auto;
+    column-gap: 100px;
+    grid-template-areas:
+        "poster eidos"
+        "trailer trailer";
+}
+
+.poster {
+    grid-area: poster;
+    margin-top: 30px;
+    margin-left: 200px;
+  
+}
+
+.trailer {
+    margin-top: 50px;
+    grid-area: trailer;
+   
+}
+video {
+    height: 500px;
+    width: 700px;
+}
+
+.eidos {
+
+    grid-area: eidos;
+    border: 25px;
+    width: 70%;
+    height: 93%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.74);
+    color: rgb(21, 100, 41);
+    padding: 20px 30px 20px 30px;
+    text-align: justify;
+}
+
+.keimeno{
+margin-top: 30px;
+}
+
+.linkk {
+    color: rgb(255, 255, 255);    
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.btn-group {
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center
+}
+
+.titlos {
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    font-family: "Audiowide", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titlos2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.titlos3 {
+    text-align: center;
+}
+
+.forma {
+    width: 67%;
+    border: 25px;
+    height: 93%;
+    color: rgb(21, 100, 41);
+    padding: 20px 30px 20px 30px;
+    text-align: justify;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#koumpi {
+    color: rgb(21, 100, 41);
+}
+
+.koumpi {
+    display: flex; 
+    justify-content: center;
+}
+
+.titlaki {
+    color: white;
+}
+
+.form-check-label {
+    color: white;
+}
+
+.form-question {
+    color: white;
+    font-size: large;
+}
+
+.forma1, .forma2, .forma3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
